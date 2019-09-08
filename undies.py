@@ -23,7 +23,8 @@ import os
 import sys
 import io
 import zlib
-import zstandard as zstd
+# import zstandard as zstd
+import zstd
 import argparse
 import hashlib
 from binascii import crc32, b2a_hex
